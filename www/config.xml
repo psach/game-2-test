@@ -51,11 +51,11 @@
   
     <platform name="android">
 	
-		<icon   src="../assets/www/res/icon/android/mipmap-mdpi/ic_launcher.png"      density="mdpi" />
-     
-        <icon   src="www/res/icon/android/mipmap-xhdpi/ic_launcher.png"     density="xhdpi" />
-        <icon   src="www/res/icon/android/mipmap-xxhdpi/ic_launcher.png"    density="xxhdpi" />
-        <icon   src="www/res/icon/android/mipmap-xxxhdpi/ic_launcher.png"   density="xxxhdpi" />
+		<icon   src="res/icon/android/mipmap-mdpi/ic_launcher.png"      density="mdpi" />
+		<icon   src="res/icon/android/mipmap-hdpi/ic_launcher.png"      density="hdpi" />
+        <icon   src="res/icon/android/mipmap-xhdpi/ic_launcher.png"     density="xhdpi" />
+        <icon   src="res/icon/android/mipmap-xxhdpi/ic_launcher.png"    density="xxhdpi" />
+        <icon   src="res/icon/android/mipmap-xxxhdpi/ic_launcher.png"   density="xxxhdpi" />
 	
 	  <!--
         Define access to external domains.
