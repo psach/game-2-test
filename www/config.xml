@@ -51,7 +51,7 @@
   
     <platform name="android">
 	
-		<icon   src="www/res/icon/android/mipmap-mdpi/ic_launcher.png"      density="mdpi" />
+		<icon   src="../assets/www/res/icon/android/mipmap-mdpi/ic_launcher.png"      density="mdpi" />
      
         <icon   src="www/res/icon/android/mipmap-xhdpi/ic_launcher.png"     density="xhdpi" />
         <icon   src="www/res/icon/android/mipmap-xxhdpi/ic_launcher.png"    density="xxhdpi" />
