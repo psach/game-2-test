@@ -25,13 +25,13 @@
 	<preference name="permissions" value="none" />
     <!-- Define a specific version of PhoneGap to build into your app. -->
     <!-- <preference name="phonegap-version"       value="cli-6.0.0" /> -->
-	<preference name="phonegap-version"       value="cli-7.1.0" />
+	<preference name="phonegap-version"       value="cli-8.0.0" />
     <!-- Plugins -->
     <!-- Core plugins -->
 
-  <!--   <plugin name="cordova-plugin-device"              source="npm" spec="~1.1.6" />
+    <plugin name="cordova-plugin-device"              source="npm" spec="~1.1.6" />
     <plugin name="cordova-plugin-file"                source="npm" spec="~4.3.3" />
-  -->   <plugin name="cordova-plugin-inappbrowser"        source="npm" spec="~1.7.1" />
+    <plugin name="cordova-plugin-inappbrowser"        source="npm" spec="~1.7.1" />
  
 
 	<plugin name="cordova-plugin-whitelist" />
