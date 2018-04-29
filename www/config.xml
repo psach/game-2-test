@@ -29,6 +29,7 @@
     <!-- Plugins -->
     <!-- Core plugins -->
 	<preference name="cordova-version" value="6.3.0" />
+	<preference name="AndroidPersistentFileLocation" value="Compatibility" />
 	
     <plugin name="cordova-plugin-device"              source="npm" spec="~1.1.6" />
     <plugin name="cordova-plugin-file"                source="npm" spec="~4.3.3" />
