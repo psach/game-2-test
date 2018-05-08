@@ -37,7 +37,7 @@
 
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-admob-free" />
-	<plugin name="phonegap-plugin-push"  >
+	<plugin name="phonegap-plugin-push" spec='2.1.2' >
 <!-- variable name="SENDER_ID" value="884946477060" / -->
 		</plugin>
 		<!-- Define app icon and splashscreen for each platform. -->
