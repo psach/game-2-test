@@ -39,6 +39,8 @@
 	<plugin name="cordova-plugin-admob-free" />
 	<plugin name="phonegap-plugin-push" spec='2.1.2' >
 <!-- variable name="SENDER_ID" value="884946477060" / -->
+		<variable name="FCM_VERSION" value="11.6.2" />
+		
 		</plugin>
 		<!-- Define app icon and splashscreen for each platform. -->
     <!-- <platform name="android">
