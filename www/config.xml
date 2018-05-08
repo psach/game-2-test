@@ -32,10 +32,11 @@
     <plugin name="cordova-plugin-device"              source="npm" spec="~1.1.6" />
     <plugin name="cordova-plugin-file"                source="npm" spec="~4.3.3" />
     <plugin name="cordova-plugin-inappbrowser"        source="npm" spec="~1.7.1" />
-    <plugin name="onesignal-cordova-plugin" spec="^2.1.1" source="npm" />
+    <!-- plugin name="onesignal-cordova-plugin" spec="^2.1.1" source="npm" / -->
 
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-admob-free" />
+	<plugin name="phonegap-plugin-push" spec="2.0.0" />
     <!-- Define app icon and splashscreen for each platform. -->
     <!-- <platform name="android">
     
@@ -50,9 +51,9 @@
    
   
     <platform name="android">
-	
-		<icon   src="res/icon/android/mipmap-mdpi/ic_launcher.png"      density="mdpi" />
-		<icon   src="res/icon/android/mipmap-hdpi/ic_launcher.png"      density="hdpi" />
+	<resource-file src="google-services.json" target="app/google-services.json" />
+	<icon   src="res/icon/android/mipmap-mdpi/ic_launcher.png"      density="mdpi" />
+	<icon   src="res/icon/android/mipmap-hdpi/ic_launcher.png"      density="hdpi" />
         <icon   src="res/icon/android/mipmap-xhdpi/ic_launcher.png"     density="xhdpi" />
         <icon   src="res/icon/android/mipmap-xxhdpi/ic_launcher.png"    density="xxhdpi" />
         <icon   src="res/icon/android/mipmap-xxxhdpi/ic_launcher.png"   density="xxxhdpi" />
