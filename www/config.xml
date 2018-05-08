@@ -26,8 +26,8 @@
     <!-- Define a specific version of PhoneGap to build into your app. -->
     <!-- <preference name="phonegap-version"       value="cli-6.0.0" /> -->
 	<preference name="phonegap-version"       value="cli-8.0.0" />
-	<preference name="android-minSdkVersion" value="14" />
-	<preference name="android-compileSdkVersion " value="26" />
+	<preference name="android-minSdkVersion" value="15" />
+
     <!-- Plugins -->
     <!-- Core plugins -->
 
@@ -55,7 +55,7 @@
    
   
     <platform name="android">
-	<resource-file src="google-services.json" target="app/google-services.json" />
+	<!-- resource-file src="google-services.json" target="app/google-services.json" / -->
 	<icon   src="res/icon/android/mipmap-mdpi/ic_launcher.png"      density="mdpi" />
 	<icon   src="res/icon/android/mipmap-hdpi/ic_launcher.png"      density="hdpi" />
         <icon   src="res/icon/android/mipmap-xhdpi/ic_launcher.png"     density="xhdpi" />
