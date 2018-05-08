@@ -27,7 +27,7 @@
     <!-- <preference name="phonegap-version"       value="cli-6.0.0" /> -->
 	<preference name="phonegap-version"       value="cli-8.0.0" />
 	<preference name="android-minSdkVersion" value="15" />
-
+	<preference name="android-targetSdkVersion" value="26" />
     <!-- Plugins -->
     <!-- Core plugins -->
 
