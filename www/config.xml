@@ -37,9 +37,9 @@
 
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-admob-free" />
-	
+	<plugin name="cordova-plugin-fcm" />
  <plugin name="phonegap-plugin-push" spec="~2.1.2">
-        <!-- variable name="FCM_VERSION" value="11.0.1" / -->
+        <variable name="FCM_VERSION" value="11.0.1" />
     </plugin>
     <engine name="android" spec="~7.0.0" />
 	
