@@ -40,7 +40,7 @@
 	
  <plugin name="phonegap-plugin-push" spec='~2.1.2'>
 
-		<variable name="FCM_VERSION" value="17.0.0" />
+		<variable name="FCM_VERSION" value="11.0.0" />
 		
 		</plugin>
 	
