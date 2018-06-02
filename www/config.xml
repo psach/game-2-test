@@ -36,7 +36,7 @@
     <!-- plugin name="onesignal-cordova-plugin" spec="^2.1.1" source="npm" /-->
 
 	<plugin name="cordova-plugin-whitelist" />
-	<plugin name="cordova-plugin-admob-free" />
+	<plugin name="cordova-plugin-admob-free" spec="0.15.0" source="npm" />
 	
  <plugin name="phonegap-plugin-push" spec='~2.1' source='npm' >
 
